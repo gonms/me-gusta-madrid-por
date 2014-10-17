@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+<meta charset="iso-8859-1">
+<title>Me gusta Madrid por ...</title>
+<meta name="description" content="">
+<meta name="author" content="Gonzalo Mu–oz">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/funciones.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+<link href="css/optimizado.css" media="screen and (min-width: 600px)" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Salsa' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css' />
+</head>
+<body>
+	<div class="menu">
+	QUIENES SOMOS
+	</div>
+	
+	<div class="main">
+		<h1>me gusta Madrid</h1>
+		<div class="claim">
+		<h2>Tus rincones favoritos, los secretos, sus calles y su vida. Compártelo y enséñanos a disfrutar de Madrid, a tu manera.
+Me gusta Madrid por su gente, su vida, su ambiente, su historia… ¿y a ti?</h2>
+		</div>
+		<div class="logo">
+			<img src="img/logo-transp.png" width="100%" title="Me gusta Madrid" alt="Me gusta Madrid" />
+		</div>
+	</div>
+	
+	<img src="img/foto1.jpg" style="border:1px solid #CCC; padding:1%;margin:1%;" width="96%" />
+	
+	<div class="form">
+		<p class="btnPost" onclick="$('#dForm').slideToggle();">¿por qué te gusta Madrid? »</p>
+		<div id="dForm" class="oculto">
+			<form id="fPost" method="post" action="#">
+				<textarea cols="30" rows="5" name="texto" id="texto" class="textarea">Me gusta Madrid por...</textarea>
+				<select name="categoria" id="categoria" class="select">
+					<option value="">Selecciona</option>
+				</select>
+				<input type="submit" class="btnSend" value="Enviar" name="btnSend" />
+				<div class="clear"></div>
+				<p class="tError" id="error"></p>
+			</form>
+		</div>
+	</div>
+	
+	<div class="content">
+		<ul id="posts">
+		</ul>
+	</div>
+	
+	<div class="footer">
+	
+	</div>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-30593062-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+</body>
+</html>

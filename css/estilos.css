@@ -1,0 +1,58 @@
+img {max-width: 100%;}
+body, p, div, h1, h2 {margin:0; padding: 0; display: block;}
+a {text-decoration: none;}
+.clear {clear: both;}
+.oculto {display: none;}
+
+.menu
+{
+	background-image: linear-gradient(left , rgb(42,76,138) 44%, rgb(69,104,173) 100%);
+	background-image: -o-linear-gradient(left , rgb(42,76,138) 44%, rgb(69,104,173) 100%);
+	background-image: -moz-linear-gradient(left , rgb(42,76,138) 44%, rgb(69,104,173) 100%);
+	background-image: -webkit-linear-gradient(left , rgb(42,76,138) 44%, rgb(69,104,173) 100%);
+	background-image: -ms-linear-gradient(left , rgb(42,76,138) 44%, rgb(69,104,173) 100%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0.44, rgb(42,76,138)),
+		color-stop(1, rgb(69,104,173))
+	);
+	padding:5px;
+	font-family: Montserrat; font-weight: bold; font-size: 14px;color: #FFFFFF;
+}
+.sombra {
+    background: url("http://pruebas.yocspain.com/cinerama/img/bgSombraSuperior.png") no-repeat scroll center top transparent;
+    min-height: 16px;
+    width: 100%;
+}
+
+h1 {font-family: Salsa;font-size:26px; font-weight: bold;padding:5px;text-shadow: 1px 1px 0 #FFFFFF;}
+h2 {font-family: Salsa;font-size:14px;font-weight: normal;padding:5px;text-align: left;}
+
+.main {margin:0; padding:0;width:100%;background: url('/img/noise_bg.png') repeat 0 0;overflow:hidden;}
+.main .claim {float:left;width:60%;}
+.main .logo {float:left;width:40%;}
+
+.form {width: 100%;text-align: center;}
+.form .btnPost {font-family: arial;font-size: 18px;font-weight: lighter;background: none repeat scroll 0 0 #4568ad;border: 2px solid #2a4b8a;border-radius: 10px;color: #FFFFFF;height: 48px;line-height: 48px;text-align: center;margin: 5px 12.5%;}
+.form .btnSend {font-family: arial;font-size: 14px;font-weight: lighter;background: none repeat scroll 0 0 #4568ad;border-radius: 10px;color: #FFFFFF;text-align: center;padding:5px;float:right;}
+#dForm {background: none repeat scroll 0 0 #F2F2F2;border-bottom: 2px solid #2a4b8a;border-top: 2px solid #2a4b8a;margin.top:5px;padding: 10px 20px;text-align: left;}
+.textarea {border: 1px solid #B2B2B2;border-radius: 5px 5px 5px 5px;color: #B2B2B2;font-family: Arial,serif;font-size: 14px;font-style: italic;padding: 10px;display:block;width:94%;}
+.select {font-family: Arial;font-size: 12px;float:left;}
+
+.content ul {overflow:hidden;margin:1%;padding:1%;list-style-type:none;}
+.content ul li {font-family:Salsa;border-bottom:1px dotted #CCCCCC;padding:5% 1%;}
+.content ul li span {color:#4568ad;font-weight:bold;}
+.content ul li .datos {padding:2% 1%;}
+.content ul li .datos .categoria {float:left;font-family:Arial;}
+.content ul li .datos .hora {float:right;font-family:Arial;color:#CCCCCC;font-size:12px;}
+.content ul li .datos .gusta {float:left;line-height:32px;height:32px;margin-right:2%;}
+.content ul li .datos .valor {float:left;line-height:32px;height:32px;margin-right:5%;color:#AA0000;font-family:Salsa;font-weight:bold;font-size:20px;}
+.content ul li .datos .twitter {float:left;line-height:32px;height:32px;margin-right:5%;}
+.content ul li .datos .comentario {float:left;line-height:32px;height:32px}
+.content ul li .datos .aComentarios {color:#4568ad;font-family:Arial;text-decoration:none;}
+
+.azul {color:#4568ad;}
+.tError {color: #F00000; text-align: center;font-family: Salsa; font-size: 14px;}
