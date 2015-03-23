@@ -1,2 +1,3 @@
-me-gusta-madrid-por
-===================
+# Me gusta Madrid por...
+
+Proyecto sin acabar que consiste en compartir en twitter lo que te gusta de Madrid y poder buscar y descubrir cosas de Madrid que gusten a otras personas
